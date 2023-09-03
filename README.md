@@ -1,5 +1,12 @@
+<div align='center'>
+
+<h1>Java y mysql</h1>
+<p>este es un proyecto que fué mi proyecto final en el curso Codo a Codo 4.0 y en el muestro html, css, bootstrap, javascript y eso lo complemento con codigo java conectado a una base de datos, la pagina es sobre una conferencia que va a realizarse y se quiere saber que colaboradores van a participar en ella</p>
+
 <h4> <span> · </span> <a href="https://github.com/varkageo/Repositorio-de-Java/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/varkageo/Repositorio-de-Java/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/varkageo/Repositorio-de-Java/issues"> Request Feature </a> </h4>
 
+
+</div>
 
 # :notebook_with_decorative_cover: Table of Contents
 
@@ -8,10 +15,3 @@
 
 ## :star2: About the Project
 
-### :art: Color Reference
-| Color | Hex |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color | ![#ae8e45](https://via.placeholder.com/10/ae8e45?text=+) #ae8e45 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
