@@ -1,0 +1,353 @@
+@font-face {
+    font-family: roboto;
+    src: url(/fuentes/RobotoMono-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {list-style: none;}
+li{font-size: 1.25em;}
+
+/*-->>>>>>>>>>>>>>>  HEADER  <<<<<<<<<<<<<<<--*/
+
+/*>>>>>>    barra de navegacion   <<<<<<*/
+nav {
+    background-color: rgb(32, 37, 48);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+.logo img{
+    height: 115px;
+    cursor: pointer;
+    
+}
+.logo p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: url(/img/hawaii.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.contenido-na{       
+    display: none;
+}
+.contenido-nav{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.contenido-nav .boton_menu{
+    background-color: rgb(65, 88, 114);
+    width: 300px;
+}
+.contenido-nav ul{
+    background-color: rgba(211, 211, 211, 0.76);
+}
+.contenido-nav ul .liGreenn{
+    background-color: green;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.contenido-nav ul li{
+    background-color: rgb(73, 86, 110);
+    text-align: center;
+    margin: 1px;
+    width: 300px;
+}
+.contenido-nav :first-child{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.contenido-nav :last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.contenido-nav ul li:hover{
+    background-color: rgb(140, 165, 212);
+    border-radius: 0px;
+}
+.contenido-nav ul .liGreenn:hover{
+    background-color: rgb(75, 243, 75);
+    
+}
+
+.contenido-nav a {
+    text-decoration: none;
+    color: white;    
+}
+/* <<<<<<<<<<<<<<<MAIN<<<<<<<<<<<<<<<<<<<<< */
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tabla .boton1{
+    background-color: rgb(0, 255, 98);
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 2px rgb(22, 173, 17);
+    
+    
+}
+.tabla .boton1:hover{
+    background: linear-gradient(89deg, #a0d271, #c9fd98, #7fec18, #d8e494);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 1s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.tabla .tabla2 table{
+    margin-top: 50px;
+    background-color: rgba(84, 131, 158, 0.411);
+    margin-bottom: 300px;
+    border-radius: 10px;
+}
+.tabla .tabla2 table thead{
+    
+    background-color: rgba(38, 175, 216, 0.911);
+    border: solid 2px rgb(0, 0, 0);
+    
+}
+.tabla .tabla2 table thead th{
+    color: rgb(255, 252, 252);
+    text-shadow: 0px 0px 4px rgba(0,0,0,1);
+    padding: 10px 150px 10px 10px;
+    text-align: start;
+    border: solid 2px rgb(0, 0, 0);
+    
+}
+.tabla .tabla2 table tr td{
+    border: solid 2px rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+.tabla .tabla2 table tr td .eliminar{
+    color: rgb(255, 8, 0);
+    display: flex;
+    justify-content: center;
+}
+.tabla .tabla2 table tr td .modificar{
+    color: rgb(37, 155, 13);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------*/
+footer{
+    background: rgb(42,50,57);
+    background: linear-gradient(90deg, rgba(42,50,57,1) 0%, rgba(42,42,64,1) 60%, rgba(13,93,111,1) 84%, rgba(18,93,112,1) 100%);
+}
+
+footer .final{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+footer .final{
+    margin: 5px;
+    height: 80px;
+    
+    
+}
+footer .final div{
+    width: 100px;
+}
+footer .final a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+footer .final a:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+
+
+
+
+/*ºººººººººººººººººººº    1er Punto de quiebre    ºººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººººº*/
+@media (min-width: 760px){
+
+    .contenido-na{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-decoration: none;
+        color: white;
+    }
+    .contenido-na ul{
+        display: flex;
+    }
+    .contenido-na ul li{
+        padding-right: 15px;
+    }
+    .contenido-na ul li a{
+        text-decoration: none;
+        color: grey;
+        font-size: 20px;
+    }
+    .contenido-na ul .liGreenn{
+        color: green;
+    }
+    .contenido-na ul .liWhite{
+        color: white;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo img{
+        width: 110px;
+        height: 70px;
+    }
+    .contenido-na ul li a:hover{
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+    }
+
+    .texto_c button{
+        margin-bottom: 20%;
+    }
+
+    
+
+}
+@media (min-width: 1200px){   /* ºººººººººººº   2do Punto de quiebre   ºººººººººººººººº*/
+
+/*-ººººººººººººººººº-  HEADER  -ºººººººººººººººººº-*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contenido-nav{
+    display: none;
+}
+.contenido-na{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.contenido-na ul{
+    display: flex;
+}
+.contenido-na ul li{
+    padding-right: 15px;
+}
+.contenido-na ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.contenido-na ul .liGreenn{
+    color: green;
+}
+.contenido-na ul .liWhite{
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 110px;
+    height: 70px;
+}
+.contenido-na ul li a:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+
+/* >>>>>>>>>>>>>>>   FOOTER   <<<<<<<<<<<<<<<< */
+
+footer{
+    background: rgb(42,50,57);
+    background: linear-gradient(90deg, rgba(42,50,57,1) 0%, rgba(42,42,64,1) 60%, rgba(13,93,111,1) 84%, rgba(18,93,112,1) 100%);
+}
+
+footer .final{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+footer .final{
+    margin: 5px;
+    height: 80px;
+    
+    
+}
+footer .final div{
+    width: 100px;
+}
+footer .final a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+footer .final a:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+}
+
